@@ -1,0 +1,25 @@
+.topTitle {
+    color: #616a73;
+    font-family: 'Arial';
+    font-size: 20px;
+    padding-right: 30px;
+    left: 50px;
+}
+
+.arrowBack {
+    width: 100px;
+    height: 20px;
+    padding-left: 20px;
+    color: #616a73;
+    border: none;
+}
+
+.arrowBack:focus {
+    border: none;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}

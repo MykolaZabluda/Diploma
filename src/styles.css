@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+.topTitle {
+    color: #747674;
+    font-family: 'Arial';
+    font-size: 20px;
+    padding-top: 30px;
+    left: 50px;
+}
+
+.topTitlePage {
+    color: #747674;
+    font-family: 'Arial';
+    font-size: 40px;
+    left: 50px;
+}
+
+.arrowBack {
+    width: 130px;
+    height: 30px;
+    padding-left: 20px;
+    color: #747674;
+    border: none;
+}
+
+.card-body {
+    border-color: #5C616B;
+    background: #D8C3A5;
+}
+
+.container {
+    height: auto;
+    min-height: 100vh;
+    width: auto;
+    min-width: 100%;
+    padding: 0 5%;
+    background-color: #EAE7DC;
+}
+
+.subjectPage {
+    height: auto;
+    min-height: 100vh;
+    width: auto;
+    min-width: 100%;
+    background-color: #EAE7DC;
+}
+
+.card-subject {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 15%;
+}
+
+.card-title {
+    color: #fff;
+    text-align: center;
+    background: #D8C3A5;
+}
+
+.card-text {
+    color: #747674;
+    background: #D8C3A5;
+}
+
+.navbar .collapse {
+    margin-left: 255px;
+}
+
+.questionCont {
+    height: 200px;
+}
+
+.answerBtn {
+    background: #254E58;
+}

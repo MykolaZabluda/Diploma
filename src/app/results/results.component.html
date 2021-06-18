@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row py-3">
+        <div class="col d-flex flex-row align-items-center">
+            <img src="../../../assets/left-arrow.svg" class="arrowBack" alt="arrow-back" routerLink="/home">
+            <h1 class="topTitlePage" style="font-size: 32px;">
+                Результати голосування методом Кондорсе
+            </h1>
+        </div>
+    </div>
+    <div class="row pb-5">
+        <div class="card col-md-6 col-lg-4 col-xl-4 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column">
+                <p class="text-center">5 учасників</p>
+                <chart [type]="type" [data]="data" [options]="options"></chart>
+            </div>
+        </div>
+        <div class="card col-md-6 col-lg-4 col-xl-4 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column">
+                <p class="text-center">12 учасників</p>
+                <chart [type]="type2" [data]="data2" [options]="options"></chart>
+            </div>
+        </div>
+        <div class="card col-md-6 col-lg-4 col-xl-4 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column">
+                <p class="text-center">7 учасників</p>
+                <chart [type]="type3" [data]="data3" [options]="options"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="row pb-4">
+        <div class="card col-md-6 col-lg-4 col-xl-4 offset-lg-2 offset-xl-2 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column">
+                <p class="text-center">9 учасників</p>
+                <chart [type]="type4" [data]="data4" [options]="options"></chart>
+            </div>
+        </div>
+        <div class="card col-md-6 col-lg-4 col-xl-4 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column">
+                <p class="text-center">17 учасників</p>
+                <chart [type]="type5" [data]="data5" [options]="options"></chart>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="winner text-center">Виходячи з результатів голосування переможцем буде кандидат С</p>
+        </div>
+    </div>
+</div>

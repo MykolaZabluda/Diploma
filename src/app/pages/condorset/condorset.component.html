@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row py-3">
+        <div class="col d-flex flex-row align-items-center">
+            <img src="../../../assets/left-arrow.svg" class="arrowBack" alt="arrow-back" routerLink="/home">
+            <h1 class="topTitlePage" style="font-size: 32px;">
+                Визначення переможця методом Кондорсе
+            </h1>
+        </div>
+    </div>
+
+    <div class="row pt-3 pb-3">
+        <div class="card col-lg-6 col-xl-6 col-md-6 col-sm-12 offset-lg-3 offset-xl-3 d-flex justify-content-center p-0">
+                <div class="card-body methodCard-body">
+                    <h5 class="card-title methodCard-title pb-3" style="font-size: 26px;">
+                        Оберіть кандидатів в порядку спадання, за яких ви хотіли б віддати свій голос
+                    </h5>
+                    <div class="card-text">
+                        <div class="row pb-2">
+                            <div class="col-12 d-flex justify-content-center">
+                                <div ngbDropdown class="d-inline-block">
+                                    <button class="btn btn-lg btn-outline-dark" id="dropdownBasic1"
+                                        ngbDropdownToggle>Оберіть кандидата 1</button>
+                                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                                        <button ngbDropdownItem>Кандидат А</button>
+                                        <button ngbDropdownItem>Кандидат В</button>
+                                        <button ngbDropdownItem>Кандидат С</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pb-2">
+                            <div class="col-12 d-flex justify-content-center">
+                                <div ngbDropdown class="d-inline-block">
+                                    <button class="btn btn-lg btn-outline-dark" id="dropdownBasic2"
+                                        ngbDropdownToggle>Оберіть кандидата 2</button>
+                                    <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+                                        <button ngbDropdownItem class="btn btn-dark">Кандидат А</button>
+                                        <button ngbDropdownItem>Кандидат В</button>
+                                        <button ngbDropdownItem>Кандидат С</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pb-2">
+                            <div class="col-12 d-flex justify-content-center">
+                                <div ngbDropdown class="d-inline-block">
+                                    <button class="btn btn-lg btn-outline-dark" id="dropdownBasic3"
+                                        ngbDropdownToggle>Оберіть кандидата 3</button>
+                                    <div ngbDropdownMenu aria-labelledby="dropdownBasic3">
+                                        <button ngbDropdownItem>Кандидат А</button>
+                                        <button ngbDropdownItem>Кандидат В</button>
+                                        <button ngbDropdownItem>Кандидат С</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pb-2">
+                            <div class="col d-flex flex-row-reverse">
+                                <button type="button" class="btn btn-dark">Проголосувати</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>

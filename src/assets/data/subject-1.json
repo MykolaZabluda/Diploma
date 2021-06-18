@@ -1,0 +1,45 @@
+{
+    "id": 1,
+    "name": "Опитування 1",
+    "questions": [
+        {
+            "id": 1,
+            "subjectId": 1,
+            "name": "Питання 1",
+            "options": [
+                {
+                    "id": 1,
+                    "questionId": 1,
+                    "name": "Taк"
+                },
+                {
+                    "id": 2,
+                    "questionId": 1,
+                    "name": "Ні"
+                },
+                {
+                    "id": 3,
+                    "questionId": 1,
+                    "name": "Поки не готовий дати відповідь"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "subjectId": 1,
+            "name": "Питання 2",
+            "options": [
+                {
+                    "id": 1,
+                    "questionId": "1",
+                    "name": "Tak"
+                },
+                {
+                    "id": 2,
+                    "questionId": "1",
+                    "name": "Ni"
+                }
+            ]
+        }
+    ]
+}
